@@ -1,9 +1,7 @@
 /// <reference types="cypress" />
 
-import MultiplePageEL from '../elements/MultiplePageEL';
 import LoginPage from '../pages/LoginPage';
 import MutiplePage from '../pages/MutiplePage';
-import ProfilePage from '../pages/ProfilePage';
 import RegisterPage from '../pages/RegisterPage';
 
 describe('Register', () => {

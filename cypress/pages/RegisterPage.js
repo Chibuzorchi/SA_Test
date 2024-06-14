@@ -12,7 +12,7 @@ class RegisterPage {
 
         cy.get(SignUpEL.inputFirstName()).type(user.firstName);
         cy.get(SignUpEL.inputLastName()).type(user.lastName);
-        cy.get(SignUpEL.inputUserName()).type("fuck99");
+        cy.get(SignUpEL.inputUserName()).type("jumbo11");
 
         cy.mailslurp()
             .then(mailslurp => mailslurp.createInbox())

@@ -4,6 +4,7 @@ import HomePageCourse from '../pages/HomePageCourse';
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
 import addToCart from '../pages/addToCart';
+import checkOut from '../pages/checkOut';
 
 describe('Register', () => {
 
@@ -25,6 +26,11 @@ describe('Register', () => {
       addToCart.addDataToCart();
       addToCart.backToCourse();
       addToCart.addBusinessToCart();
+      checkOut.goToCheckOut();
+      checkOut.fillFields();
+      checkOut.viewOrder();
+      checkOut.goToDashboard();
+      checkOut.goToOrderHistory();
     })
     
   })
